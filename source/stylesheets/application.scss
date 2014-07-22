@@ -1,0 +1,14 @@
+@import "bourbon";
+@import "normalize-css";
+
+$ff: 'Arial, sans-serif';
+
+body {
+  font: 400 14px/1.3 $ff;
+  color: #000;
+  background: #fff;
+}
+
+
+@import "blocks/header";
+@import "blocks/footer";
